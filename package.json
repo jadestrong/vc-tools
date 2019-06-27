@@ -3,12 +3,17 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/jadestrong/vc-tools",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jadestrong/vc-tools.git"
+  },
   "scripts": {
     "test": "echo \"No test specified\""
   },
   "bin": {
-    "vc-tools": "./bin/vc-tools.js",
-    "vc-tools-run": "./bin/vc-tools-run.js"
+    "vc-tool": "./bin/vc-tool.js",
+    "vc-tool-run": "./bin/vc-tool-run.js"
   },
   "keywords": [],
   "author": "",
